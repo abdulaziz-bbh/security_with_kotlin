@@ -1,0 +1,22 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/security_kotlin
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
+email:
+  host: smtp.gmail.com
+  port: 587
+  username: myapplicatoin.api@gmail.com
+  password: stca towq nyms kmbv
+  debug: true
+
+
